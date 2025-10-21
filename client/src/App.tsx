@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import "./style.css";
 
 type Health = { ok: boolean; timestamp: string };
 
