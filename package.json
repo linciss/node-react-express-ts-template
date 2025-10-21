@@ -11,7 +11,8 @@
     "build": "npm run build -w server && npm run build -w client",
     "start": "npm run start -w server",
     "lint": "eslint . --ext .ts,.tsx",
-    "format": "prettier . --write"
+    "format": "prettier . --write",
+    "install-all": "cd client && npm i && cd ../server && npm i"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.21.0",
